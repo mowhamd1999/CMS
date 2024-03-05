@@ -1,0 +1,14 @@
+@import './reset.css';
+
+:root {
+    --white: #d9d9d9;
+    --blue: #AFD3E2;
+    --ocean: #19A7CE;
+    --deep: #146C94;
+}
+body{
+    background-color: var(--white);
+    display: flex;
+    direction: rtl;
+    width: 100%;
+}

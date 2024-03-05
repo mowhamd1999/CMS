@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.admin-profile{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.admin-profile div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.admin-profile div h1{
+    font-size: 1.2rem;
+}
+.admin-profile div h3{
+    font-size: 0.8rem;
+    color: rgb(113, 113, 113);
+}
+.header-left-section{
+    display: flex;
+    column-gap: 20px;
+}
+.search-box{
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+    background: unset;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px 20px 10px 10px;
+}
+.search-box button{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--deep);
+    color: var(--white);
+    padding: 7px;
+    justify-content: center;
+    font-weight: 200;
+    border: none;
+}
+.header-left-icon{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--deep);
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+    outline: none;
+    border: none;
+}
